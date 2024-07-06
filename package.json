@@ -1,0 +1,30 @@
+{
+  "name": "slofbot",
+  "version": "1.0.0",
+  "description": "a multi-purpose discord entertainment bot, written in typescript, based on the pokemon \"slakoth\".",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "r": "node dist/index.js"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sireoh/slothbot.git"
+  },
+  "author": "Vincent Fung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sireoh/slothbot/issues"
+  },
+  "homepage": "https://github.com/sireoh/slothbot#readme",
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  }
+}
