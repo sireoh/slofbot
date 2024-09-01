@@ -1,27 +1,21 @@
 {
-  "name": "slofbot",
+  "name": "seobot",
   "version": "1.0.0",
-  "description": "discord bot that pings when streamers are live",
-  "main": "index.js",
+  "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "index": "echo \"Running the authenication server.\" && node index.js",
+    "bot": "echo \"Running the bot.\" && nodemon"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sireoh/slofbot.git"
-  },
-  "author": "Vincent Fung",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sireoh/slofbot/issues"
-  },
-  "homepage": "https://github.com/sireoh/slofbot#readme",
+  "description": "",
   "dependencies": {
-    "axios": "^1.7.7",
-    "body-parser": "^1.20.2",
-    "crypto": "^1.0.1",
-    "discord.js": "^13.0.0",
+    "axios": "^1.7.2",
     "dotenv": "^16.4.5",
-    "express": "^4.19.2"
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "tmi.js": "^1.8.5"
   }
 }
