@@ -1,30 +1,27 @@
 {
   "name": "slofbot",
   "version": "1.0.0",
-  "description": "a multi-purpose discord entertainment bot, written in typescript, based on the pokemon \"slakoth\".",
+  "description": "discord bot that pings when streamers are live",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc",
-    "r": "node dist/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sireoh/slothbot.git"
+    "url": "git+https://github.com/sireoh/slofbot.git"
   },
   "author": "Vincent Fung",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sireoh/slothbot/issues"
+    "url": "https://github.com/sireoh/slofbot/issues"
   },
-  "homepage": "https://github.com/sireoh/slothbot#readme",
-  "devDependencies": {
-    "@types/node": "^20.14.10",
-    "typescript": "^5.5.3"
-  },
+  "homepage": "https://github.com/sireoh/slofbot#readme",
   "dependencies": {
-    "discord.js": "^14.15.3",
-    "dotenv": "^16.4.5"
+    "axios": "^1.7.7",
+    "body-parser": "^1.20.2",
+    "crypto": "^1.0.1",
+    "discord.js": "^13.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
   }
 }
