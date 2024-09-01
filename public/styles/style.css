@@ -1,0 +1,14 @@
+body {
+	display: flex;
+	margin: 0;
+}
+
+span {
+	font-family: 'Delius Unicase', cursive;
+	color: #7B3000;
+	font-size: 1em;
+	/* background-color: rgba(0, 0, 0, 0.75); */
+	background-color: white;
+	padding: 0.4em 1em 0.4em;
+	border-radius: 16px;
+}
